@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Cadastro Cliente</title>
+</head>
+<body>
+    <div class="registro">
+        <div class="tabelaClientes" id="tabelaClientes">
+            <h1 id="tituloTabela">Lista De Clientes</h1>
+        </div>
+        <div class="cadastro">
+            <span>cadastro de cliente</span>
+            <form>
+                Nome:
+                <input id="nome" type="text" placeholder="Insira seu Nome">
+            </form>
+            <form>
+                Idade:
+                <input id="idade" type="number" placeholder="Insira sua idade">
+            </form>
+            <form>
+                Estado:
+                <input id="estado" type="text" placeholder="Insira o estado">
+            </form>
+            <form>
+               Cidade:
+              <input id="cidade" type="text" placeholder="Insira a cidade">
+            </form>
+            <div class="botoes">
+                <button onclick="tela()">Finalizar cadastro</button>
+                <button onclick="criarTabela()">Novo cadastro</button>
+            </div>
+        </div>
+    </div>
+    <script src="./scripts.js"></script>
+</body>
+</html>
